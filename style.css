@@ -1,0 +1,753 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************nav start*********************/
+.navbar img{
+	width: 100px;
+	height: 80px;
+	margin-left: 20px;
+
+}
+.navbar{
+	background-color:#beebdb;
+}
+.navbar-brand{
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 8px;
+	margin-left: 10px;
+	text-decoration: none;
+	
+}
+.navbar-brand:hover{
+             font-size: 30px;
+
+             color:green;
+
+}
+
+.navbar-nav{
+	margin-right:10px;
+}
+
+]
+.navbar-nav li{
+
+          list-style-type:none;
+          
+         
+
+}
+}
+.navbar-nav li a{
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-weight: bold;
+	/*text-transform: uppercase!important;*/
+	font-size: 15px;
+	color: #9b88bd;
+}
+.navbar-nav li a:hover{
+	font-size: 20px;
+	background-color: red!important;
+	color:white!important;
+}
+
+/******************carousal**********************/
+.carousel-caption{
+	margin-bottom: 210px;
+	font-family: 'Playfair Display', serif;;
+	
+}
+.carousel-caption h1{
+	font-weight: bold;
+	color:#5927b0;
+	/*color: red;*/
+	/*text-shadow: 3px 3px #10e84a;*/
+	font-family: 'Cantora One', sans-serif;
+
+
+}
+.carousel-caption p{
+	color: white!important;
+	font-size: bold;
+}
+/*.carousel-caption span{
+	text-transform: uppercase;
+	color: white;
+	font-size: 50px;
+}*/
+.headingp{
+	font-weight: bold;
+	font-size: 20px;
+
+
+}
+
+/***************about pizon***************/
+.aboutus{
+	width: 100%;
+	height: 800px;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('images/about-bgimg.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow-y: hidden;
+}
+
+.abt{
+	margin-top: 60px;
+}
+.my-img{
+	margin-top: 100px;
+	height: 100vh;
+}
+.abt p {
+	text-align: justify;
+	font-size: 17px;
+	font-family: 'Muli', sans-serif;
+	color: white;
+}
+
+/***********************services*****************/
+.services{
+	width: 100%;
+	height: 600px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	/*margin-top: 10px;*/
+	/*background-color: #343deb;*/
+	/*background-image: url('images/bigdata2.jpg');*/
+		background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('images/about-bgimg.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	color: black;
+	
+}
+.services h1{
+	text-align: center;
+	font-weight: bold;
+	margin-top: 40px;
+	color: white;
+}
+.services hr{
+	width: 150px;
+	height: 2px;
+	background-color: red;
+	margin-left: 600px;
+}
+.col-md-3 i {
+	margin-left: 120px;
+	margin-top: 40px;
+	font-size: 40px;
+	color:blue;
+}
+.col-md-3 h4{
+          font-family: 'Noto Serif', serif;
+}
+#c1{
+      
+      margin-left: 65px;
+}
+#c2{
+           
+      margin-left: 35px;
+}
+#c3{
+	margin-left: 10px;
+
+}
+#c4{
+   margin-left: 83px;
+ }
+#c5{
+       margin-left:26px; 
+}
+#c6{
+	margin-left:26px; 
+
+}
+#c7{
+
+}
+.col-md-3 .card:hover{
+	background-color: #51fcf4;
+	font-size: 50px;
+}
+
+/***********work********/
+.work{
+	height: 700px;
+	width: 100%;
+	overflow-x: hidden;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('images/about-bgimg.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow-y: hidden;
+}
+.work-row{
+	margin-top: 80px;
+}
+.first .card{
+	margin-left: 170px;
+}
+.first .card h4{
+	padding: 50px;
+	text-align: center;
+}
+.imgtag{
+	margin-left: 13px;
+}
+.work hr{
+	width: 275px;
+	height: 2px;
+	margin-left: 540px;
+	background-color: red;
+}
+.work .card:hover{
+	background-color: #51fcf4;
+}
+
+/****************new add************/
+#img1{
+	margin-left: 40px;
+	margin-top: 30px;
+	color: white;
+	text-align: justify;
+	font-family: 'Cantora One', sans-serif;
+
+
+}
+#img1 h3{
+	text-align: center;
+
+	/*margin-left: 5px;*/
+	font-size: 25px;
+}
+#img1 img{
+	height: 250px;
+	width: 250px;
+	border: 1px solid green;
+	/*border-left:1px solid red;
+	border-right: 1px solid red;
+	border-top: 1px solid red;*/
+}
+
+#img2{
+           margin-left: 40px;
+		   margin-top: 30px;
+		   color: white;
+		   font-family: 'Cantora One', sans-serif;
+}
+#img2 h3{
+	text-align: center;
+
+	/*margin-left: 5px;*/
+	font-size: 25px;
+}
+#img2 img{
+             height: 250px;
+			width: 250px;
+			border: 1px solid green;
+		/*	border-left:1px solid red;
+	border-right: 1px solid red;
+	border-top: 1px solid red;*/
+}
+
+#img3{
+	margin-left: 40px;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Cantora One', sans-serif;
+
+
+}
+#img3 h3 {
+	text-align: center;
+
+	/*margin-left: 5px;*/
+	font-size: 25px;
+}
+
+#img3 img{
+	  height: 250px;
+	width: 250px;
+	/*border-left:1px solid red;
+	border-right: 1px solid red;
+	border-top: 1px solid red;*/
+	border: 1px solid green;
+}
+#img4{
+	margin-left: 40px;
+    margin-top: 30px;
+    color: white;
+    text-align: justify;
+    font-family: 'Cantora One', sans-serif;
+}
+#img4 h3{
+	text-align: center;
+}
+
+#img4 img{
+           height: 250px;
+	      width: 250px;
+	      border: 1px solid green;
+	    /*  border-left:1px solid red;
+	border-right: 1px solid red;
+	border-top: 1px solid red;*/
+}
+
+#img5{
+	margin-left: 40px;
+	margin-top: 30px;
+	color: white;
+	font-family: 'Cantora One', sans-serif;
+	text-align: justify;
+
+}
+#img5 h3{
+	text-align:center;
+}
+#img5 img{
+	height: 250px;
+	width: 250px;
+	border: 1px solid green;
+	/*border-left:1px solid red;
+	border-right: 1px solid red;
+	border-top: 1px solid red;*/
+}
+
+#img6{
+           margin-left: 40px;
+		   margin-top: 30px;
+		   color: white;
+		   text-align: justify;
+		   font-family: 'Cantora One', sans-serif;
+}
+#img6 h3{
+	 text-align: center
+}
+#img6 img{
+             height: 250px;
+			width: 250px;
+			border: 1px solid green;
+		/*	border-left:1px solid red;
+	border-right: 1px solid red;
+	border-top: 1px solid red;*/
+}
+#img7{
+	margin-left: 40px;
+    margin-top: 30px;
+    font-family: 'Cantora One', sans-serif;
+    color: white;
+    text-align: justify;
+}
+#img7 h3{
+	text-align: center;
+	font-size: 25px;
+}
+
+#img7 img{
+	  height: 250px;
+	width: 250px;
+	border: 1px solid green;
+/*	border-left:1px solid red;
+	border-right: 1px solid red;
+	border-top: 1px solid red;*/
+
+}
+#img8{
+	margin-left: 40px;
+    margin-top: 30px;
+    font-family: 'Cantora One', sans-serif;
+    color: white;
+    text-align: justify;
+}
+#img8 h3{
+	text-align: center;
+}
+
+#img8 img{
+           height: 250px;
+	      width: 250px;
+	      border: 1px solid green;
+	/*      border-left:1px solid red;
+	border-right: 1px solid red;
+	border-top: 1px solid red;*/
+}
+
+
+
+
+
+
+
+
+
+
+/***************industry****************/
+.moreaboutPizon{
+  width: 100%;
+  height: 1100px;
+  /*background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('images/success.jpg');*/
+ /* background-position: center;
+  background-size: cover;
+  background-attachment: fixed;*/
+  background-color: #0d244a;
+}
+.pz{
+  text-align: justify;
+  padding: 80px;
+}
+.pz p{
+  margin-top: 20px;
+}
+/*****************************industry*****************/
+.ourvision{
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  background-color: #dceff2;
+  background-image: url('images/auto-ind.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  overflow-y: hidden;
+}
+.col-md-6 img{
+  width: 100%;
+  height: 500px;
+}
+
+/*.mission{
+  background-color:#dceff2;
+}*/
+
+.mission h1{
+  text-align: center;
+  margin-top: 60px;
+  color:white!important;
+  padding: 20px;
+}
+
+
+.mission p{
+  text-align: justify;
+  color:orange!important;
+  font-weight: bold;
+  padding: 20px;
+}
+.card-img-top{
+  width: 100%;
+  height: auto;
+}
+.card-text{
+  text-align: justify;
+}
+#industry-img{
+	margin-top: 30px;
+}
+
+
+
+/********************Our client**************/
+/*.ourclients{
+	background-color:#d9d4c5;
+}*/
+
+.ourclients h1{
+	text-align: center;
+	margin-top: 25px;
+	color: #233333;
+	/*text-shadow:2px 2px #60f7f7;*/
+	
+}
+
+.ourclients #demo{
+	margin-top: 70px;
+	
+
+}
+/*.ourclients hr{
+	width: 100px;
+	height: 2px;
+	margin-left: 600px;
+	background-color:red;
+}
+*/
+.tm{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+/**********************testimonial*********************/
+
+.testimonial{
+	height:550px;
+	width: 100%;
+	background-image: url('images/testimonial.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	margin-top: 100px;
+	
+}
+ 
+ .testimonial p{
+ 	/*font-family: 'Nova Square', cursive;*/
+ 	font-weight: bold;
+ }
+
+
+
+
+
+
+
+/******************get in touch**************/
+.get-in-touch{
+  width: 100%;
+  height: 600px;
+  background-image: url('images/phone.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+.get-in-touch h1{
+        padding-top: 30px;
+
+}
+
+.contact-form{
+  padding:15px;
+}
+.form-control{
+  border-radius: 10px!important;
+  border: 10px!important;
+  box-shadow: none!important;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.5)
+}
+::placeholder{
+
+font-size: 12px;
+}
+
+.contact-form button{
+  border:none!important;
+  background:#ff4d73!important;
+  box-shadow: none!important;
+  border-radius: none;
+}
+.contact-info .follow{
+  background-color: #fff;
+  padding:8px;
+  margin:15px;
+}
+
+.contact-info .fa{
+  margin:10px;
+  font-size: 20px;
+  color: #ff4d73;
+  font-weight: bold;
+  padding-right: 20px;
+}
+.contact-info span{
+  font-size: 15px;
+}
+
+
+
+.crow{
+  padding: 20px;
+}
+/************footer**************/
+.footer{
+	width: 100%;
+	height: 400px;
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('images/footer.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/***************lastdiv**************/
+.lastdiv{
+	width: 100%;
+	height: 110px;
+	background-color: #0d0b0b;
+}
+
+#mylastdiv{
+	margin-left: 300px;
+}
+
+#mylastdiv a{
+	text-decoration: none;
+	color: white;
+
+
+}
+
+#mylastdiv a i {
+	font-size: 20px;
+	border: 2px solid black;
+	padding: 7px;
+	background-color: white;
+}
+/*#mylastdiv a:hover{
+	color: red;
+	font-size: 20px;
+}*/
+
+@media (max-width: 768px){
+	body,html{
+		overflow-x: hidden;
+	}
+
+	.nav-item {
+		text-align: center!important;
+	}
+
+	#car1{
+		margin-bottom: 2px;
+		font-size: 3px;
+	}
+
+	#car2{
+		margin-bottom: 2px;
+		font-size: 3px;
+	}
+	
+
+	#car3{
+		margin-bottom: 2px;
+		font-size: 3px;
+	}
+	
+
+	#car4{
+		margin-bottom: 2px;
+		font-size: 3px;
+	}
+	
+
+	.aboutus{
+		/*width: 100%;*/
+		height: 1600px;
+	}
+	.services{
+		height: 1550px;
+
+		/*margin-top: 500px;*/
+	}
+	.services .servicediv .col-md-3 .card{
+		right: 10px;
+	}
+	
+	.work{
+		/*margin-top: 1000px;*/
+		/*height: 400px;*/
+		height: 1700px;
+	}
+	
+    #first-mathology{
+    	
+    	/*width: 100%;*/
+    	
+    }
+    #first-mathology .card{
+    	
+    	right:140px; 
+    }
+    #second-mathology{
+    	
+    	margin-top: 6px;    	
+    }
+    #second-mathology .card{
+    	right: 15px;
+    }
+    #last{
+       /*width: 100%;	*/
+       margin-top: 5px;
+       
+    }
+    #last .card{
+    	left: 35px;
+    }
+    .moreaboutPizon{
+    	height: 3550px;
+    }
+
+    /*.moreaboutPizon .row{
+    	margin-bottom: 2000px;
+    }*/
+    .ourvision{
+        height: 800px;
+    }
+
+   .ourvision	.carousel-item .carousel-caption h1{
+   	font-size: 6px;
+   }
+   .ourclients	{
+   	widows: 400px;
+   }
+   .ourclients .carousel-inner .carousel-item .row .col-md-3{
+
+   	left:58px;
+
+   }
+     .testimonial {
+     	height: 600px;
+     }
+
+     .testimonial	i h3{
+     	float: left
+     }
+     .get-in-touch{
+     	height: 900px;
+     }
+     .footer{
+     	height: 1300px;
+     }
+     .smrt{
+     	background-color: green;
+     }
+     .smrt h1{
+     	margin-right: 1000px;
+     }
+    .lastdiv{
+        	height: 170px;
+        	background-color: red;
+        }
+       .smrt #mylastdiv{
+       	background-color: blue;
+       	margin-right: 10000px;
+       	/*padding: 30px;*/
+       }
+     .fa-comment{
+     	right: 1000px;
+     }
+}
